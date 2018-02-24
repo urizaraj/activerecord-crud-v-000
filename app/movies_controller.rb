@@ -24,7 +24,12 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    m.save
+    puts
+    puts
+    puts
+    puts m
+    puts
+    puts
   end
 end
 
